@@ -1,0 +1,80 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"logo": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+					"width": 3882,
+					"height": 2584
+				},
+				"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+				"width": 3882,
+				"height": 2584,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"copyrights": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Laborum aliqua eu qui exercitation excepteur. Ut fugiat ut nulla ut adipisicing minim adipisicing qui elit non consectetur sint cillum."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"link",
+						{
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "http://google.com"
+							}
+						}
+					],
+					[
+						"external",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					],
+					[
+						"name",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Consequat duis ex pariatur. Ex mollit ullamco laborum non adipisicing qui proident in sunt minim ad officia minim. Deserunt eu veniam veniam tempor officia eu magna irure amet veniam incididunt enim amet magna amet."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

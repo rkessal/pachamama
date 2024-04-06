@@ -1,0 +1,16 @@
+{
+  "id": "ingredient",
+  "type": "SharedSlice",
+  "name": "Ingredient",
+  "description": "Ingredient",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

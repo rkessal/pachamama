@@ -1,0 +1,172 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "imageLeft",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim velit aliqua nulla fugiat laboris labore velit occaecat aute enim magna irure pariatur. In ullamco anim labore sunt qui. Eiusmod veniam eu aute qui aliquip culpa sint."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliquip voluptate irure est."
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+					"width": 4380,
+					"height": 2895
+				},
+				"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+				"width": 4380,
+				"height": 2895,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "imageRight",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Velit non eu sint aliquip ex sint nostrud labore exercitation."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est sint labore commodo magna eiusmod adipisicing in dolore. Elit aute ea et commodo adipisicing magna. Anim aute officia nulla excepteur culpa ea minim consequat nulla consectetur esse aute ad duis."
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+					"width": 2747,
+					"height": 4120
+				},
+				"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+				"width": 2747,
+				"height": 4120,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Muscle relaxant",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "This quality is perhaps partly why the cannabis so beneficial for patients with conditions such as multiple sclerosis, fibromyalgia, arthritis and osteoarthritis who often experience muscle spasticity, pain and cramping.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "YSA1IRkGAsg",
+					"url": "https://images.unsplash.com/photo-1517260739337-6799d239ce83?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MTA2MDg3MTZ8MA&ixlib=rb-4.0.3&q=85",
+					"width": 5760,
+					"height": 3840
+				},
+				"url": "https://images.unsplash.com/photo-1517260739337-6799d239ce83?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw2fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MTA2MDg3MTZ8MA&ixlib=rb-4.0.3&q=85",
+				"width": 5760,
+				"height": 3840,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": "sliced fruit on white surface",
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]
