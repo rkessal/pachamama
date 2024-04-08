@@ -18,9 +18,9 @@ const Benefit = ({ slice }) => {
       <Marquee>
         <PrismicRichText field={slice.primary.title} />
       </Marquee>
-      <div className="py-[5rem] ">
+      <div className="p-[5rem]">
         {slice.items.map((item, index) => (
-          <div key={`benefit-${index}`} className="mx-auto text-center flex flex-col items-center justify-center max-w-[73.25rem] w-full">
+          <div key={`benefit-${index}`} className="md:mx-auto md:text-center flex flex-col items-center justify-center max-w-[73.25rem] w-full">
             <div className="font-grotesk text-[2rem] max-w-[52.9375rem]">
               <PrismicRichText field={item.description} />
             </div>

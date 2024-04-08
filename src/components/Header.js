@@ -10,9 +10,9 @@ import { HorizontalDivider } from "./HorizontalDivider";
 const Profile = ({ name, description, profilePicture }) => {
   return (
     <div className="px-4">
-      <div className="grid max-w-lg grid-cols-1 justify-items-center gap-8">
+      <div className="grid max-w-lg grid-cols-1 gap-8 justify-items-center">
         <PrismicNextLink href="/" tabIndex="-1">
-          <div className="relative h-40 w-40 overflow-hidden rounded-full bg-slate-300">
+          <div className="relative w-40 h-40 overflow-hidden rounded-full bg-slate-300">
             {prismic.isFilled.image(profilePicture) && (
               <PrismicNextImage
                 field={profilePicture}
@@ -49,7 +49,7 @@ export const Header = ({ navigation }) => {
   return (
     <nav className="mx-[5rem] p-[3rem] backdrop-blur-md	 left-0 right-0 bg-black/50  flex flex-row justify-between items-center h-[3.5rem] fixed top-5 rounded-[1.25rem] text-bone font-grotesk z-50">
       <Link href="/">
-        <PrismicNextImage field={navigation.data.logo} />
+        <PrismicNextImage className="w-[4rem] h-[3.47375rem]" field={navigation.data.logo} />
       </Link>
       <ul className="flex flex-wrap justify-center gap-10">
         {navigation.data?.links.map((item) => (

@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/ohj3qhn.css"/>
       </head>
-      <body className="overflow-x-hidden antialiased">
+      <body className="overflow-x-hidden antialiased bg-black">
         <main>
           {children}
           <PrismicPreview repositoryName={repositoryName} />

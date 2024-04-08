@@ -107,6 +107,7 @@ export type ArticleDocument<Lang extends string = string> =
   >;
 
 type HomeDocumentDataSlicesSlice =
+  | QuoteSlice
   | FooterSlice
   | TestimonialsSlice
   | SeparatorSlice
@@ -1106,14 +1107,24 @@ export interface QuoteSliceDefaultPrimary {
   quote: prismic.TitleField;
 
   /**
-   * Source field in *Quote → Primary*
+   * CTA Link field in *Quote → Primary*
    *
-   * - **Field Type**: Text
-   * - **Placeholder**: Source of the quote
-   * - **API ID Path**: quote.primary.source
-   * - **Documentation**: https://prismic.io/docs/field#key-text
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: quote.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  source: prismic.KeyTextField;
+  cta_link: prismic.LinkField;
+
+  /**
+   * CTA label field in *Quote → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: quote.primary.cta_label
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  cta_label: prismic.RichTextField;
 }
 
 /**
