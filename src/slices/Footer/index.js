@@ -15,7 +15,7 @@ const Footer = ({ slice }) => {
       data-slice-variation={slice.variation}
       className="px-[5rem] pb-[5rem] pt-[16rem] bg-black text-bone"
     >
-      <div className="flex flex-row items-end justify-between mb-[9rem]">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-[9rem]">
         <ul>
           {slice.items.map(
             (item, index) =>
@@ -23,7 +23,7 @@ const Footer = ({ slice }) => {
                 <li key={`footer-link-${index}`}>
                   <PrismicNextLink
                     field={item.link}
-                    className="uppercase font-grotesk mb-4 last:mb-0 text-[2.5rem]"
+                    className="uppercase font-grotesk mb-4 last:mb-0 text-6xl md:text-[2.5rem]"
                   >
                     <PrismicRichText field={item.name} />
                   </PrismicNextLink>
@@ -33,7 +33,7 @@ const Footer = ({ slice }) => {
         </ul>
         <Link
           href="#backtotop"
-          className="uppercase font-grotesk text-[2.5rem]"
+          className="mt-8 md:mt-0 uppercase font-grotesk text-6xl md:text-[2.5rem]"
         >
           Back to top{" "}
         </Link>
@@ -43,8 +43,8 @@ const Footer = ({ slice }) => {
           <PrismicNextImage field={slice.primary.logo} className="w-full h-full" />
         )}
       </figure>
-      <div className="flex flex-row justify-between font-grotesk  text-[1.125rem]">
-        <ul className="flex flex-row">
+      <div className="flex flex-col  md:flex-row items-center md:justify-between font-grotesk  text-3xl md:text-[1.125rem]">
+        <ul className="flex flex-row mb-16 md:mb-0">
           {slice.items.map((item) => {
             return (
               item.external && (

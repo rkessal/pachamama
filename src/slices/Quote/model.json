@@ -20,11 +20,22 @@
             "single": "heading2"
           }
         },
-        "source": {
-          "type": "Text",
+        "cta_link": {
+          "type": "Link",
           "config": {
-            "label": "Source",
-            "placeholder": "Source of the quote"
+            "label": "CTA Link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "cta_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "CTA label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },

@@ -5,6 +5,13 @@
 html {
   font-size: calc((100vw / 1440) * 16);
   box-sizing: border-box;
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: calc((100vw / 768) * 16);
+  }
 }
 
 .marquee {

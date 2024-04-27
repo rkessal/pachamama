@@ -17,12 +17,12 @@ const Hero = ({ slice }) => {
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="relative flex items-center justify-center h-[43.75rem] overflow-y-hidden"
+      className="relative flex items-center justify-center h-[80vh] md:h-[43.75rem] overflow-y-hidden"
     >
-      <figure className="absolute top-0 left-0 w-full">
+      <figure className="absolute top-0 left-0 h-full md:w-full">
         <PrismicNextImage
           field={backgroundImage}
-          className="object-cover w-full h-full"
+          className="object-cover h-full md:w-full"
         />
       </figure>
       <div className="font-seasons leading-[6.4375rem] z-10 text-[6rem] text-center w-[56.25rem] text-bone">

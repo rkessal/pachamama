@@ -12,14 +12,14 @@ const Testimonials = ({ slice }) => {
       data-slice-variation={slice.variation}
       className="p-[5rem] bg-black text-bone"
     >
-      <div className="font-seasons leading-[6.4375rem] mb-[24rem] mx-auto text-[6rem] text-center max-w-[52.875rem] w-full">
+      <div className="font-seasons leading-[6.4375rem] mb-[12rem] md:mb-[24rem] mx-auto text-[6rem] text-center max-w-[52.875rem] w-full">
         <PrismicRichText field={slice.primary.title} />
       </div>
       <div className="max-w-[66.4375rem] w-full ml-auto">
         {slice.items.map((item, index) => (
           <div key={`testimonial-${index}`} className="flex flex-col mb-[12rem] last:mb-0">
-            <div className="flex flex-row">
-              <div className="font-seasons text-[1.5rem] max-w-[13.5rem] w-full">
+            <div className="flex flex-col md:flex-row">
+              <div className="font-seasons text-3xl mb-8 md:mb-0 md:text-[1.5rem] md:max-w-[13.5rem] w-full">
                 <PrismicRichText field={item.product} />
               </div>
               <div className="font-grotesk text-[2rem] w-auto">
