@@ -8,7 +8,6 @@ import * as prismic from "@prismicio/client";
  * @param {BenefitProps}
  */
 const Benefit = ({ slice }) => {
-  console.dir(slice, { depth: null });
   return (
     <section
       data-slice-type={slice.slice_type}

@@ -9,6 +9,7 @@ import { PrismicRichText } from "@prismicio/react";
 const Product = async ({ slice, index, context }) => {
   return (
     <section
+      id={slice.primary.product.data.uid}
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       className="py-[5rem] bg-bone"

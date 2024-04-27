@@ -44,8 +44,8 @@ export function Marquee({ children }) {
 }
 
 const MarqueeLine = ({ ref1, ref2, texts1, texts2, slider }) => (
-  <div ref={slider} class="relative marquee uppercase font-grotesk text-[8rem]">
-    <ul ref={ref1} class="marquee__content absolute left-0 top-0">
+  <div ref={slider} className="relative marquee uppercase font-grotesk text-[8rem]">
+    <ul ref={ref1} className="absolute top-0 left-0 marquee__content">
       {texts1.map((text, index) => (
         <li key={`text-{${index}}`} className="mr-8 odd:font-bold">{text}</li>
       ))}

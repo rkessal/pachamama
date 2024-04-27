@@ -14,6 +14,7 @@ export default async function Index() {
       "product.background_image",
       "product.main_image",
       "product.sizes",
+      "product.uid"
     ],
   });
 
