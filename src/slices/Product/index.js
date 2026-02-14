@@ -1,5 +1,6 @@
 import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
+import * as prismic from "@prismicio/client";
 
 /**
  * @typedef {import("@prismicio/client").Content.ProductSlice} ProductSlice
@@ -16,12 +17,14 @@ const Product = async ({ slice, index, context }) => {
     >
       <div id="product" className="relative flex flex-col md:flex-row md:items-center md:pr-0 px-[5rem]">
         <div className="md:max-w-[32.625rem] w-full ">
-        <figure className="md:absolute md:bottom-0 mb-16 md:mb-[8.75rem] md:mr-[28.125rem] md:right-0 rounded-[20px] overflow-hidden bg-white md:max-w-[21.9375rem] w-full md:h-[29.0625rem] ml-auto">
-          <PrismicNextImage
-            className="object-cover w-full h-full"
-            field={slice.primary.product.data.main_image}
-          />
-        </figure>
+          {prismic.isFilled.image(slice.primary.product.data.main_image) && (
+            <figure className="md:absolute md:bottom-0 mb-16 md:mb-[8.75rem] md:mr-[28.125rem] md:right-0 rounded-[20px] overflow-hidden bg-white md:max-w-[21.9375rem] w-full md:h-[29.0625rem] ml-auto">
+              <PrismicNextImage
+                className="object-cover w-full h-full"
+                field={slice.primary.product.data.main_image}
+              />
+            </figure>
+          )}
           <h1 className="font-seasons text-7xl md:text-[6rem] md:leading-[6.4375rem] mb-[4.5rem] max-w-[27.5rem] w-full ">
             {slice.primary.product.data.name}
           </h1>
